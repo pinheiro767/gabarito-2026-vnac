@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>Gabarito da Prova Prática - Medicina 2026</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Medicina • Prova prática • 09/06/2026</p>
+      <h1>Gabarito da Prova Prática</h1>
+      <p class="subtitle">24 estruturas anatômicas com imagens de 1.png a 24.png</p>
+    </div>
+    <div class="actions">
+      <button id="btnPdf" class="primary">Gerar PDF</button>
+      <button id="btnPrint" class="secondary">Imprimir</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Como usar no PC:</strong> mantenha as imagens dentro da pasta <code>imagens</code> com os nomes exatos <code>1.png</code> até <code>24.png</code>. Abra o <code>index.html</code> no navegador. Para melhor funcionamento do PDF, use o servidor local incluído nas instruções.
+    </section>
+    <section id="grid" class="grid"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <button id="closeModal" class="close">×</button>
+    <img id="modalImg" alt="Imagem ampliada">
+    <p id="modalCaption"></p>
+  </div>
+
+  <footer>
+    Gabarito oficial organizado para consulta, projeção e PDF.
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

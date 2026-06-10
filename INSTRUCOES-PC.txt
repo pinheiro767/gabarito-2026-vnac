@@ -1,0 +1,21 @@
+COMO USAR NO PC
+
+1. Extraia o ZIP.
+2. Abra a pasta do aplicativo.
+3. Coloque suas imagens reais na pasta imagens.
+4. Os nomes precisam ser exatamente:
+   1.png, 2.png, 3.png ... 24.png
+5. Abra o arquivo index.html no Google Chrome ou Microsoft Edge.
+6. Clique em Gerar PDF.
+
+SE O PDF NÃO INSERIR AS IMAGENS NO PC:
+Use servidor local simples:
+
+Opção com Python instalado:
+1. Abra o Prompt de Comando dentro da pasta do app.
+2. Digite:
+   python -m http.server 8000
+3. Abra no navegador:
+   http://localhost:8000
+
+Isso evita bloqueios do navegador com arquivos locais.
